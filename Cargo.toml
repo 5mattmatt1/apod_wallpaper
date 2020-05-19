@@ -1,0 +1,22 @@
+[package]
+name = "apod_wallpaper"
+version = "1.0.0"
+authors = ["mhenderson <mattw2018@hotmail>"]
+edition = "2018"
+description = "This is an application to automatically download the Astronomy Picture of the Day from NASA and set it as your wallpaper."
+homepage = "https://github.com/5mattmatt1/apod_wallpaper"
+repository = "https://github.com/5mattmatt1/apod_wallpaper"
+readme = "README.md"
+license = "MIT"
+keywords = ["wallpaper", "nasa", "apod"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono="*"
+wallpaper = "*"
+ureq="*"
+serde="*"
+serde_json = "1.0"
+toml = "*"
